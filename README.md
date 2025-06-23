@@ -17,9 +17,9 @@ This program fetches SKU pricing information from the Google Cloud Billing API f
     ```
 
 2.  **Install dependencies:**
-    This script requires the `google-api-python-client` and `pyyaml` libraries. You can install them using pip:
+    This script requires the `google-api-python-client` and `pyyaml` libraries. You can install them using `pip` and the `requirements.txt` file:
     ```bash
-    pip install google-api-python-client pyyaml
+    pip install -r requirements.txt
     ```
 
 3.  **Set your API Key:**
